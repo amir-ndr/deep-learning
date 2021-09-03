@@ -1,3 +1,3 @@
-this is a text classification problem.
-stackoverflow dataset is here for us to use containing the body of several thousand programming questions (for example, "How can sort a dictionary by value in Python?") posted to Stack Overflow. Each of these is labeled with exactly one tag (either Python, CSharp, JavaScript, or Java). our task is to take a question as input, and predict the appropriate tag, in this case, Python.
-first we preprocess the texes then apply a textVectorization on pocessed data. then we create a model and optimize it by adam optimizer. at the end we predict the classes of these questions by softmax method.
+this is a text classification problem.<br />
+stackoverflow dataset is here for us to use containing the body of several thousand programming questions (for example, "How can sort a dictionary by value in Python?") posted to Stack Overflow. Each of these is labeled with exactly one tag (either Python, CSharp, JavaScript, or Java). our task is to take a question as input, and predict the appropriate tag, in this case, Python.<br />
+first we preprocessed the texts then apply a textVectorization on preprocessed data. then we create a model and optimize it by adam optimizer. at the end we predict the classes of these questions by softmax method.
