@@ -6,4 +6,4 @@ The German Traffic Sign Benchmark is a multi-class, single-image classification 
 4- Large, lifelike database<br /><br />
 here we classify the signs using deep learning(CNN) algorithm. we create the datasets using imageDataGenerator and then made the pictures ready for process.<br />
 after making the model, we compiled it with adam optimizer and 'categorical_crossentropy' loss function.<br />
-after fitting this model during seven epochs (batch_size = 128), we got 99% accuracy on training/validation sets and 98% accuracy on the test set
+after fitting this model during seven epochs (batch_size = 128), we got 99% accuracy on training/validation sets and <strong>98.2%<strong /> accuracy on the test set
