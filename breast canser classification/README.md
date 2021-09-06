@@ -9,4 +9,4 @@ From that, 277,524 patches of size 50 x 50 were extracted (198,738 IDC negative 
 Each patch’s file name is of the format: uxXyYclassC.png — > example 10253idx5x1351y1101class0.png .<br />
 Where u is the patient ID (10253idx5), X is the x-coordinate of where this patch was cropped from, Y is the y-coordinate of where this patch was cropped from, and C indicates the class where 0 is non-IDC and 1 is IDC.<br /><br />
 
-after creating the datasets and preprocessing the images, we create a CNN model and compile it with adam optimizer, then fit it during 27 epochs with batc_size=128. at the end we got 90% accuracy on the validation set. you can also see the other evaluation in the jupyter notebook.
+after creating the datasets and preprocessing the images, we create a CNN model and compile it with adam optimizer, then fitted it during 27 epochs with batch_size=128. at the end we got 90% accuracy on the validation set. you can also see the other evaluation in the jupyter notebook.
