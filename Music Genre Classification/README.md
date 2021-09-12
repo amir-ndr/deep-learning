@@ -9,6 +9,7 @@ images original - A visual representation for each audio file. One way to classi
 
 the link of the dataset: https://www.kaggle.com/andradaolteanu/gtzan-dataset-music-genre-classification<br /><br />
 
+<hr />
 first we gained some information about the data set, then we loaded the songs, visualized and preprocessesed them using the librosa library.<br />
 then we designed a model, compiled it with adam optimizer and fitted it based on mfcc of the songs.(so we recognize the genre of a song based on its mfcc matrix)<br />
 so at the end we got 90% accuracy on the validation set.
