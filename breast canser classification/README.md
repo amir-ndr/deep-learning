@@ -1,5 +1,3 @@
----
-
 # Breast Cancer Classification
 
 This Python project aims to classify breast cancer images into two categories: healthy and cancerous. It utilizes a convolutional neural network (CNN) to make predictions based on image patches.
@@ -57,6 +55,6 @@ The model is trained on the dataset for multiple epochs to achieve optimal perfo
 
 ## Evaluation <a name="7"></a>
 
-The model's performance is evaluated on a validation dataset, and predictions are generated. The project also provides insights into the model's accuracy and visualizations of its predictions. So after creating the datasets and preprocessing the images, we create a CNN model and compile it with adam optimizer, then fitted it during 27 epochs with batch_size=128. at the end we got 90% accuracy on the validation set. you can also see the other evaluation in the jupyter notebook.
+The model's performance is evaluated on a validation dataset, and predictions are generated. The project also provides insights into the model's accuracy and visualizations of its predictions. So after creating the datasets and preprocessing the images, we create a CNN model and compile it with adam optimizer, then fitted it during 27 epochs with batch_size=128. at the end we got 90 percentage accuracy on the validation set. you can also see the other evaluation in the jupyter notebook.
 
 ---
